@@ -4,7 +4,7 @@ import { Types } from "mongoose";
 
 @Schema({ timestamps: true })
 
-export class AbstractocDument {
+export class AbstractDocument {
     @Prop({ type: Types.ObjectId })
     _id: Types.ObjectId;
 }
